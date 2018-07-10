@@ -7,13 +7,13 @@ import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
 import store from './store';
 
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <HashRouter>
       <TicTacToe />
-    </BrowserRouter>
+    </HashRouter>
   </Provider>,
   document.getElementById('root') as HTMLElement
 );
