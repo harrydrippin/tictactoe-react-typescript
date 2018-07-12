@@ -22,7 +22,7 @@ class SingleGameScreen extends React.Component<ISingleGameScreenProps, object> {
         <GameStatus />
         <GameBoard />
         <hr />
-        <p className="text-muted">Quite boring, eh? Why don't you <a href="/">play with your internet friends?</a></p>
+        <p className="text-muted">Quite boring, eh? Why don't you <a href="/tictactoe-react-typescript">play with your internet friends?</a></p>
       </div>
     );
   };

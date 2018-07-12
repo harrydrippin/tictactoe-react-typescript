@@ -21,7 +21,7 @@ class MultiGameScreen extends React.Component<IMultiGameScreenProps, object> {
       <GameStatusMulti />
       <GameBoardMulti />
       <hr />
-      <p className="text-muted">If you want, you can run away from your scary opponent and <a href="/">back to comfortable "lobby" screen.</a></p>
+      <p className="text-muted">If you want, you can run away from your scary opponent and <a href="/tictactoe-react-typescript">back to comfortable "lobby" screen.</a></p>
     </div>
   }
 }
